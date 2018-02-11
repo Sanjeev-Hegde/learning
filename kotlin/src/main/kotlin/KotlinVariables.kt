@@ -1,3 +1,4 @@
+import java.math.BigInteger
 import java.util.*
 
 fun main(args: Array<String>){
@@ -34,7 +35,11 @@ fun main(args: Array<String>){
     val reader = Scanner(System.`in`);
     val str1 = reader.next();
     val str2 = reader.next();
+    
     println(str1+"\n"+str2);
+
+
+    val first = BigInteger("0")
 
 }
 
